@@ -53,7 +53,7 @@ jobs:
     secrets:
       # Only needed if GitOps repo is private and requires different token
       # use fallback
-      GITOPS_TOKEN: ""
+      GITOPS_TOKEN: ${{ secrets.GITOPS_REPO_TOKEN | github.token }}
 
   # Post-deployment notification job
   notify-deployment:
