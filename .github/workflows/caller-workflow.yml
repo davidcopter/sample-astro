@@ -32,7 +32,7 @@ permissions:
 
 jobs:
   call-reusable-workflow:
-    uses: ./.github/workflows/ci-cd-template.yml
+    uses: davidcopter/ci-cd-shared-workflows/.github/workflows/ci-cd-template.yml@main
     with:
       # Service Configuration
       service_name: sample-astro
