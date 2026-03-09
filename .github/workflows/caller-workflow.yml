@@ -44,6 +44,7 @@ jobs:
       # GitOps Configuration
       gitops_repo: davidcopter/sample-astro-gitops
       helm_chart_path: ./values.yaml
+      helm_values_alias: "app"
 
       # Build Configuration
       enable_cache: true
