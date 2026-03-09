@@ -42,7 +42,7 @@ jobs:
       docker_build_context: "."
 
       # GitOps Configuration
-      gitops_repo: davidcopter/sample-astro-gitops/
+      gitops_repo: davidcopter/sample-astro-gitops
       helm_chart_path: ./values.yaml
 
       # Build Configuration
